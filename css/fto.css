@@ -1,0 +1,379 @@
+body {
+	font-size: 14px;
+}
+.navbar-inverse {
+	background: #FFFFFF;
+}
+a.navbar-brand {
+	position: fixed;
+	left: 50%;
+	margin-left: -235px;
+	top: -20px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #333333;
+}
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 12px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+ul.nav.navbar-nav.navbar-left {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #222;
+  background: transparent;
+  border: 1px solid #222;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  background-color: transparent;
+  color: #F90;
+}
+.jumbotron {
+	background-color: #000;
+	color: #FFF;
+	padding-top: 80px;
+	position: relative;
+	margin-bottom: 0;
+}
+.jumbotron.video-jumbo {
+	background-color: rgba(0, 0, 0, 0.7);
+	margin-bottom: 0;
+	min-height: 650px;
+	padding-top: 130px;
+}
+.jumbotron.shop-jumbo {
+	background-color: rgba(0, 0, 0, 0.7);
+	margin-bottom: 0;
+	min-height: none;
+	padding-top: 130px;
+}
+.jumbotron-bg {
+	position: absolute;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	overflow: hidden;
+	z-index: 0;
+}
+.featured-img {
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.3;
+}
+#video-bg {
+	position: absolute;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	overflow: hidden;
+	z-index: -1;
+}
+.brands {
+	background: #F5F5F5;
+	padding: 20px 35px;
+	text-align: center;
+}
+.brands img {
+	opacity: 0.2;
+	padding: 20px;
+}
+.brands img:hover {
+	opacity: 0.3;
+	padding: 20px;
+}
+.jumbotron h1,
+.jumbotron .h1 {
+  font-weight: 100;
+}
+.jumbotron .container {
+	max-width: 720px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+	z-index: 1;
+}
+.jumbotron p,
+.jumbotron .p  {
+	margin-bottom: 15px;
+	font-size: 15px;
+	font-weight: 200;
+}
+.top-buffer {
+	padding-top: 30px;
+}
+.bottom-buffer {
+	padding-bottom: 30px;
+}
+.product {
+	background: #f1f1f1;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.prod-content {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.product-name h3 {
+	background: #F90;
+	display: inline-block;
+	padding: 20px 35px;
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+.product-name {
+	margin-left: -20px;
+	background-image:url(../images/prodname-bg.png);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+}
+i.fa.fa-video-camera {
+	margin-right: 10px;
+}
+.prod-footer {
+	background: #111;
+	color: #F5F5F5;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.prod-footer .btn-lg {
+	width: 60%;
+	margin-top: 30px;
+	margin-top: 4px;
+}
+.prod-footer .btn-lg:hover {
+	color: #FFFFFF;
+}
+.prod-price {
+	font-size: 26px;
+	font-weight: 100;
+	color: #FFB950;
+}
+.price-info {
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+.row.reverse {
+	background: #F1F1F1;
+}
+.reverse .container {
+	background: #FFF;
+}
+/* CTAs */
+.jumbotron .btn:hover {
+	color: #FFF;
+}
+.btn-lg, .btn-group-lg > .btn {
+	padding: 15px 40px;
+	font-size: 17px;
+	line-height: 1.33;
+	border-radius: 0;
+	min-width: 250px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	text-transform: lowercase;
+}
+.btn-primary {
+	color: #FFB950;
+	background: rgba(0, 0, 0, 0);
+	border-color: #FFB950;
+}
+.btn {
+	font-weight: 200;
+    -webkit-transition: all 0.2s ease;                  
+    -moz-transition: all 0.2s ease;                 
+    -o-transition: all 0.2s ease;   
+    -ms-transition: all 0.2s ease;          
+    transition: all 0.2s ease;
+}
+.dark-btn {
+	color: #dd8500;
+	border-color: #dd8500;
+}
+.dark-btn:hover {
+	background: #dd8500;
+	color: #FFF;
+	border-color: #dd8500;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #000;
+}
+.navbar-toggle {
+	border-radius: 0;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	color: #000;
+}
+h5, .h5 {
+	font-size: 18px;
+	margin-bottom: 5px;
+	font-weight: 500;
+	padding-top: 20px;
+}
+h6, .h6 {
+	font-size: 15px;
+	font-weight: 400;
+}
+p {
+	margin: 0 0 25px;
+	font-weight: 200;
+}
+.step {
+	background: #F5F5F5;
+	border: 15px solid #FFF;
+	padding: 35px;
+}
+.step span {
+	width: 100%;
+	float: left;
+	margin-bottom: 15px;
+	font-size: 40px;
+}
+#about-dave {
+	background: #f5f5f5;
+	padding-top: 40px;
+	padding-bottom: 90px;
+	text-align: justify;
+}
+.testimonial {
+	padding: 30px;
+	border: 1px solid #999;
+	margin: 30px 0;
+}
+.testimonial p {
+	margin-top: 40px;
+	color: #666;
+}
+.testim-img {
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-size: cover;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	margin-right: 20px;
+}
+p.testim-position {
+	color: #666;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: 500;
+	margin-top: 0;
+}
+footer {
+	background: #F5F5F5;
+	padding: 100px 0;
+}
+footer h6 {
+	color: #666;
+}
+footer ul {
+	list-style-type: none;
+	padding-left: 10px;
+}
+footer li a {
+	color: #333;
+	font-weight: 400;
+	font-size: 12px;
+}
+footer .fa-angle-right {
+	margin-right: 8px;
+}
+#copyrights {
+	font-size: 11px;
+	text-transform: uppercase;
+	padding: 30px 15px;
+	letter-spacing: 0.05em;
+}
+#copyrights p {
+	font-weight: 400;
+}
+#egorilla a {
+	float: right;
+	color: #c07e00;
+	font-weight: 400;
+}
+i.fa.fa-code {
+	font-size: 120%;
+}
+.navbar-right li {
+	border-left: 1px solid #DDD;
+}
+.navbar-right li a {
+    padding: 25px;
+    margin: 0;
+    min-height: 100%;
+}
+.navbar-inverse {
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow:    0px 0px 3px 0px rgba(0, 0, 0, 0.25);
+    box-shadow:         0px 0px 3px 0px rgba(0, 0, 0, 0.25);
+	border: none;
+}
+.jumbotron p.date {
+color: #FFF;
+font-size: 12px;
+font-weight: 100;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+
+@media (min-width:768px){
+	.jumbotron h1, .jumbotron .h1 {
+		font-size: 43px;
+	}
+}
+@media (min-width: 992px){
+	#about-dave {
+		background-image:url(../images/dave-bg.jpg);
+		background-repeat: no-repeat;
+		background-position: right bottom;
+	}
+}
+
+@media (max-width: 992px){
+	div.navbar-collapse.collapse {
+	margin-top: 90px;
+	border-top: 1px solid #DDD;
+	}
+}
+
+@media (max-width: 768px){
+	.product-name {
+		margin-left: 0px;
+	}
+}
+
+@media (max-width: 640px){
+	a.navbar-brand {
+		position: fixed;
+		left: 0;
+		margin-left: -70px;
+		top: -20px;
+	}
+	.navbar-brand img {
+		width: 90%;
+	}
+	#copyrights {
+		text-align: center;
+	}
+	#egorilla a {
+		float: none;
+	}
+}
